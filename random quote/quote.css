@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background-image: url('b99438804c0be6242d88148ba7b45de1.jpg');
+    background-size: cover; /* Ensure background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    min-height: 100vh; /* Ensure the body covers at least the entire viewport height */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+.container {
+    width: 90%; /* Set container width to a percentage of the viewport width */
+    max-width: 500px; /* Set maximum container width */
+    height: auto; /* Let the height adjust automatically based on content */
+    border: solid;
+    border-radius: 5%;
+    display: inline-block;
+    margin-top: 10vh; /* Adjust margin from top as percentage of viewport height */
+    font-family: Noto Sans;
+    font-size: xx-large;
+    background-color: whitesmoke;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow-y: auto; /* Add scrollbar when content overflows */
+    max-height: 70vh; /* Limit container height to a percentage of viewport height */
+}
+
+button {
+    background-color: #e1d54f; /* Change background color to a cool green */
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Increase padding for better button appearance */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px; /* Increase border radius for a rounded button */
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #afa535; /* Darken background color on hover */
+}
+
+/* Optional: Positioning the button */
+@media (max-width: 600px) {
+    button {
+        position: static; /* Reset button position for smaller screens */
+        margin-top: 20px; /* Adjust margin from top for better spacing */
+    }
+}
